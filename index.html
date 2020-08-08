@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sports Bikes UK</title><!-- This will be the title of the page -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div id="navigation">
+				<span id="mobile-navigation">&nbsp;</span>
+				<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+				<ul id="menu">
+					<li class="selected">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="Products.html">PRODUCTS</a><!-- Navigation-->
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="body" class="home">
+<div style="text-align:center"> 
+  <video id="video1" width="1080">
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.avi" type="video/avi">
+    Your browser does not support HTML5 video.
+  </video>
+  <br><br>
+    <button onclick="play()">Play</button> 
+  <button onclick="pause()">Pause</button>
+  <button onclick="makeSmall()">Small Display</button> 
+  <button onclick="makeNormal()">Normal Display</button>
+  <button onclick="makeBig()">Big Display</button>
+</div> 
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function play() {  
+        myVideo.play();  
+} 
+
+function pause()  {
+		myVideo.pause();
+}
+
+function makeBig() { 
+    myVideo.width = 1080; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 480; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 720; 
+} 
+</script> 
+			<div class="header">
+				<div>
+					<img src="images/runner.png" alt="">
+				</div>
+			</div>
+			<div class="body">
+				<div>
+					<h1><span title="The button is located below"> FEEL THE NEED TO KNOW MORE  ? </span> </h1>
+					<p>If You Require Any More Infomation, Please Click Below To Learn More About Our Products.</p>
+					<a href="products.html" class="more">Products</a>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<div class="connect">
+					<a href="https://twitter.com/missionbicycle?lang=en" class="twitter">twitter</a>
+					<a href="https://www.facebook.com/pages/Bikes/108733305825278" class="facebook">facebook</a><!-- Bottom of page links -->
+					<a href="https://plus.google.com/+Heritagebicycles" class="googleplus">googleplus</a>
+					<a href="https://uk.pinterest.com/guypartleton/cycling/" class="pinterest">pinterest</a>
+				</div>
+				<p>&copy; Sports Bikes UK. All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
