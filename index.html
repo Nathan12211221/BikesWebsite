@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sports Bikes UK</title><!-- This will be the title of the page -->
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="JS/homepagescripts.js"></script>
 </head>
 <body>
 	<div id="page">
@@ -36,35 +37,13 @@
     Your browser does not support HTML5 video.
   </video>
   <br><br>
-    <button onclick="play()">Play</button> 
+    <button onclick="play();">Play</button> 
   <button onclick="pause()">Pause</button>
   <button onclick="makeSmall()">Small Display</button> 
   <button onclick="makeNormal()">Normal Display</button>
   <button onclick="makeBig()">Big Display</button>
 </div> 
-<script> 
-var myVideo = document.getElementById("video1"); 
 
-function play() {  
-        myVideo.play();  
-} 
-
-function pause()  {
-		myVideo.pause();
-}
-
-function makeBig() { 
-    myVideo.width = 1080; 
-} 
-
-function makeSmall() { 
-    myVideo.width = 480; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 720; 
-} 
-</script> 
 			<div class="header">
 				<div>
 					<img src="images/runner.png" alt="">
