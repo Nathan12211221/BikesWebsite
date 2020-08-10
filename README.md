@@ -40,3 +40,10 @@ This website is information more about the different types of bikes that are ava
 
 * Similar to the previous page this page consits of information about the bike and its features
 
+# About Page
+
+* This page has information on the terms and conditions for the company
+
+# Contact Page
+
+* This page is for customers that want more information or want to purchase a bike. They can use the contact form to fill in the details and send it and then the customer service department will get in touch with the customer for more information. 
