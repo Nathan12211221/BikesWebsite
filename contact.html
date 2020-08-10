@@ -6,6 +6,7 @@
 	<title>contact - Products</title> <!-- This will be the title of the page -->
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<script src="JS/formscript.js"></script>
+	<link rel="stylesheet" href="css/contactusform.css" type="text/css">
 	
 </head>
 <body>
@@ -49,13 +50,28 @@
 				<h2>Registration Infomation</h2>
 				<p>Registered in England Company Registration No: 07853017<p>								
 				<h4><span title="Fill in the form below to join sports Bikes UK"> JOIN Sports Bikes UK NOW </span> </h4>								
-				<form action="index.html" onsubmit = "return validate();">
-					<input type="text" name="name" value="Name" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
-					<input type="text" name="Address" value="Address" onblur="this.value=!this.value?'Address':this.value;" onfocus="this.select()" onclick="this.value='';">
-					<input type="text" name="Email" value="Email" onblur="this.value=!this.value?'Email':this.value;" onfocus="this.select()" onclick="this.value='';">
-					<textarea name="meassage" cols="50" rows="7">Message</textarea>
-					<input type="submit" value="Send" id="submit">
-				</form>			
+				
+				
+					
+			<div id="error_message"></div>
+  
+		  <form action="index.html" id="myform" onsubmit = "return validate();">
+				<div class="input_field">
+					<input type="text" placeholder="Name" id="name">
+				</div>
+				<div class="input_field">
+					<input type="text" placeholder="Address" id="address">
+				</div>
+				<div class="input_field">
+					<input type="text" placeholder="Email" id="email">
+				</div>
+				<div class="input_field">
+					<textarea placeholder="Message" id="message"></textarea>
+				</div>
+				<div class="btn">
+					<input type="submit">
+				</div>
+		  </form>
 		</div>
 		<div id="footer">
 			<div>
